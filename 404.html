@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Page Not Found :(</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<meta name="color-scheme" content="light dark" />
+		<link href="favicon.ico" rel="icon" type="image/x-icon" />
+		<!-- BOOTSTRAP CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<!-- CSS overrides -->
+		<link rel="stylesheet" href="assets/style.css" />
+		<style>
+			::selection {
+				background: #b3d4fc;
+				text-shadow: none;
+			}
+
+			body {
+				font-size: 20px;
+				line-height: 1.4;
+			}
+
+			html,
+			input {
+				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			}
+
+			.container {
+				padding: 20px;
+				margin-top: 30px;
+				border: 2px solid #06c;
+				border-radius: 13px;
+				box-shadow: -3px 3px 2px rgba(64, 64, 55, 0.4);
+			}
+
+			@media (prefers-color-scheme: light) {
+				.container {
+					background-color: white;
+					color: #06c;
+				}
+
+				.container.dark {
+					background-color: #121212;
+					color: #eee;
+				}
+			}
+
+			@media (prefers-color-scheme: dark) {
+				.container {
+					background-color: #121212;
+					color: #eee;
+				}
+
+				.container.light {
+					background-color: white;
+					color: #06c;
+				}
+			}
+
+			h1 {
+				margin: 0 10px;
+				font-size: 50px;
+				text-align: center;
+			}
+
+			h1 span {
+				color: #bbb;
+			}
+
+			h3 {
+				margin: 1.5em 0 0.5em;
+			}
+
+			p {
+				margin: 1em 0;
+			}
+
+			ul {
+				padding: 0 0 0 40px;
+				margin: 1em 0;
+			}
+
+			/* google search */
+
+			#goog-fixurl ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+
+			#goog-fixurl form {
+				margin: 0;
+			}
+
+			#goog-wm-qt,
+			#goog-wm-sb {
+				border: 1px solid #bbb;
+				font-size: 16px;
+				line-height: normal;
+				vertical-align: top;
+				color: #444;
+				border-radius: 2px;
+			}
+
+			#goog-wm-qt {
+				width: 220px;
+				height: 20px;
+				padding: 5px;
+				margin: 5px 10px 0 0;
+				box-shadow: inset 0 1px 1px #ccc;
+			}
+
+			#goog-wm-sb {
+				display: inline-block;
+				height: 32px;
+				padding: 0 10px;
+				margin: 5px 0 0;
+				white-space: nowrap;
+				cursor: pointer;
+				background-color: #f5f5f5;
+				background-image: linear-gradient(rgba(255, 255, 255, 0), #f1f1f1);
+				appearance: none;
+				*overflow: visible;
+				*display: inline;
+				*zoom: 1;
+			}
+
+			#goog-wm-sb:hover,
+			#goog-wm-sb:focus {
+				border-color: #aaa;
+				box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+				background-color: #f8f8f8;
+			}
+
+			#goog-wm-qt:hover,
+			#goog-wm-qt:focus {
+				border-color: #105cb6;
+				outline: 0;
+				color: #222;
+			}
+		</style>
+		<!-- FONT AWESOME -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- BOOTSTRAP JS -->
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<main class="container">
+			<h1>Not found <span>:(</span></h1>
+			<p>Sorry, but the page you were trying to view does not exist.</p>
+			<p>It looks like this was the result of either:</p>
+			<ul>
+				<li>a mistyped address</li>
+				<li>an out-of-date link</li>
+			</ul>
+			<p>
+				Go back to
+				<a href="https://lenniemoore.com" rel="noopener noreferrer"
+					>lenniemoore.com</a
+				>
+			</p>
+			<script>
+				var GOOG_FIXURL_LANG = (navigator.language || '').slice(0, 2),
+					GOOG_FIXURL_SITE = location.host
+			</script>
+			<script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+		</main>
+	</body>
+</html>
