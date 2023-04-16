@@ -191,7 +191,7 @@
 	}
 
 	.accordion-item {
-		background-color: #e3f1ff;
+		background-color: #e3f2ff;
 	}
 }
 
@@ -210,7 +210,7 @@
 	.accordion-button,
 	.accordion-button:not(.collapsed),
 	.accordion-button:focus {
-		color: #47a3ff;
+		color: #47A3FF;
 		text-shadow: none;
 	}
 
@@ -220,21 +220,27 @@
 		text-shadow: none;
 	}
 
-	body,
 	a.header_title,
+	h1 {
+		color: #900;
+	}
+
 	.header_subtitle,
-	h1,
 	h2,
+	a.nav-link {
+		color: #35A7FF;
+	}
+	
+	body,
 	.nav-fill,
 	.col-10,
-	#lowertext,
 	.accordion-item,
-	a.nav-link,
 	a.nav-link:hover,
 	a.nav-link:focus,
+	#lowertext,
 	.fa-bars,
 	.fa-xmark {
-		color: #eee;
+		color: #ffd;
 	}
 
 	a.nav-link,
@@ -261,6 +267,9 @@
 	.col-10,
 	#lowertext {
 		border: 2px solid #47a3ff;
+	}
+	div.accordion-item{
+		border: 2px solid #900;
 	}
 }
 
