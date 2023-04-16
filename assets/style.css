@@ -508,6 +508,11 @@ a.top {
 		font-size: 125%;
 	}
 
+	img {
+  		width: 40%;
+  		height: auto;
+	}
+
 }
 
 /* tablet width */
@@ -520,12 +525,18 @@ a.top {
 		display: block;
 		font-size: 80%;
 	}
+
 	h1 {
 		font-size: 150%;
 	}
 
 	h2 {
 		font-size: 120%;
+	}
+
+	img {
+  		width: 42%;
+  		height: auto;
 	}
 
 }
@@ -546,12 +557,18 @@ a.top {
 		display: block;
 		font-size: 75%;
 	}
+
 	h1 {
 		font-size: 130%;
 	}
 
 	h2 {
 		font-size: 100%;
+	}
+
+	img {
+  		width: 34%;
+  		height: auto;
 	}
 
 }
