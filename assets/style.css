@@ -389,6 +389,7 @@ a.nav-link.disabled {
 	background-color: transparent;
 	box-shadow: none;
 	text-transform: uppercase;
+	text-align: center;
 	padding: 10px;
 	border: 0;
 }
