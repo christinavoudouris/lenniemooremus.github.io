@@ -114,6 +114,7 @@
 @media (prefers-color-scheme: light) {
 	body {
 		background: url(images/sketch_bg_1920x1024_lite.webp) repeat;
+		background-size: 100%;
 	}
 
 	body,
@@ -197,6 +198,7 @@
 @media (prefers-color-scheme: dark) {
 	body {
 		background: url(images/sketch_bg_1920x1024_dark.webp) repeat;
+		background-size: 100%;
 	}
 
 	a,
@@ -449,12 +451,12 @@ h2 {
 
 .image-left {
 	float: left;
-	margin: 0 15px;
+	margin: 0 2% 0 0;
 }
 
 .image-right {
 	float: right;
-	margin: 0 15px;
+	margin: 0 0 0 2%;
 }
 
 footer {
@@ -476,17 +478,17 @@ a.top {
 	}
 
 	.header_subtitle {
-		font-size: 90%;
+		font-size: 100%;
 	}
 }
 
 @media screen and (max-width: 992px) {
 	a.header_title {
-		font-size: 200%;
+		font-size: 233%;
 	}
 
 	.header_subtitle {
-		font-size: 70%;
+		font-size: 80%;
 	}
 
 	.nav-fill,
@@ -498,18 +500,34 @@ a.top {
 	.col-10 {
 		width: 100%;
 	}
+	h1 {
+		font-size: 150%;
+	}
+
+	h2 {
+		font-size: 125%;
+	}
+
 }
 
 /* tablet width */
 
 @media screen and (max-width: 768px) {
 	a.header_title {
-		font-size: 275%;
+		font-size: 233%;
 	}
 	.header_subtitle {
 		display: block;
-		font-size: 90%;
+		font-size: 80%;
 	}
+	h1 {
+		font-size: 150%;
+	}
+
+	h2 {
+		font-size: 120%;
+	}
+
 }
 
 /* small screens */
@@ -521,11 +539,19 @@ a.top {
 	}
 
 	a.header_title {
-		font-size: 170%;
+		font-size: 225%;
 	}
 
 	.header_subtitle {
 		display: block;
-		font-size: 50%;
+		font-size: 75%;
 	}
+	h1 {
+		font-size: 130%;
+	}
+
+	h2 {
+		font-size: 100%;
+	}
+
 }
