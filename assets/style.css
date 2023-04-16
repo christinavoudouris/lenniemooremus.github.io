@@ -514,6 +514,10 @@ a.top {
   		height: auto;
 	}
 
+	footer {
+	font-size: 90%;
+}
+
 }
 
 /* tablet width */
@@ -539,6 +543,10 @@ a.top {
   		width: 42%;
   		height: auto;
 	}
+
+	footer {
+	font-size: 90%;
+}
 
 }
 
@@ -571,5 +579,9 @@ a.top {
   		width: 34%;
   		height: auto;
 	}
+
+	footer {
+	font-size: 90%;
+}
 
 }

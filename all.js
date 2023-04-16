@@ -59,5 +59,5 @@ document
 	.querySelector('main')
 	.insertAdjacentHTML(
 		'afterend',
-		`<footer class="container"><p>&copy; 2023 Lennie Moore. All Rights Reserved. <a href="https://twitter.com/lenniemooremus" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl"></i></a> <a href="https://www.facebook.com/lenniemooremusic" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a> <a href="https://www.youtube.com/@LennieMoore" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fa-brands fa-youtube fa-xl"></i></a> <a href="#top" class="top">Back to Top</a></p></footer>`
+		`<footer class="container"><p>&copy; 2023 Lennie Moore. All Rights Reserved.<a href="https://twitter.com/lenniemooremus" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl"></i></a> <a href="https://www.facebook.com/lenniemooremusic" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a> <a href="https://www.youtube.com/@LennieMoore" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fa-brands fa-youtube fa-xl"></i></a> <a href="#top" class="top">Back to Top</a></p></footer>`
 	)
