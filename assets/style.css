@@ -206,29 +206,29 @@
 	a:hover,
 	.item.a:hover,
 	a:focus,
-	.item.a:focus,
+	.item.a:focus, 
+	h2, 
 	.accordion-button,
 	.accordion-button:not(.collapsed),
 	.accordion-button:focus {
-		color: #47A3FF;
+		color: #5EB7FF;
 		text-shadow: none;
 	}
 
 	a:hover,
 	a:focus {
-		color: #900;
+		color: #E5AD4C;
 		text-shadow: none;
 	}
 
 	a.header_title,
 	h1 {
-		color: #900;
+		color: #E5AD4C;
 	}
 
 	.header_subtitle,
-	h2,
 	a.nav-link {
-		color: #35A7FF;
+		color: #eee;
 	}
 	
 	body,
@@ -240,7 +240,7 @@
 	#lowertext,
 	.fa-bars,
 	.fa-xmark {
-		color: #ffd;
+		color: #eee;
 	}
 
 	a.nav-link,
@@ -269,7 +269,7 @@
 		border: 2px solid #47a3ff;
 	}
 	div.accordion-item{
-		border: 2px solid #900;
+		border: 2px solid #E5AD4C;
 	}
 }
 
@@ -587,6 +587,10 @@ a.top {
 	img {
   		width: 34%;
   		height: auto;
+	}
+
+	iframe {
+		width:90%;
 	}
 
 	footer {
