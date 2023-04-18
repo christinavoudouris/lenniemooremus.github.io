@@ -220,13 +220,13 @@
 		color: #FFD650;
 		text-shadow: none;
 	}
-
-	a.header_title,
+	
+	a.nav-link,
 	h1 {
 		color: #FFD650;
 	}
 
-	a.nav-link {
+	a.header_title {
 		color: #70BCFF;
 	}
 	
