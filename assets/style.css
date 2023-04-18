@@ -211,27 +211,27 @@
 	.accordion-button,
 	.accordion-button:not(.collapsed),
 	.accordion-button:focus {
-		color: #5EB7FF;
+		color: #70BCFF;
 		text-shadow: none;
 	}
 
 	a:hover,
 	a:focus {
-		color: #E5AD4C;
+		color: #FFD650;
 		text-shadow: none;
 	}
 
 	a.header_title,
 	h1 {
-		color: #E5AD4C;
+		color: #FFD650;
 	}
 
-	.header_subtitle,
 	a.nav-link {
-		color: #eee;
+		color: #70BCFF;
 	}
 	
-	body,
+	body,	
+	.header_subtitle,
 	.nav-fill,
 	.col-10,
 	.accordion-item,
@@ -240,7 +240,7 @@
 	#lowertext,
 	.fa-bars,
 	.fa-xmark {
-		color: #eee;
+		color: #eec;
 	}
 
 	a.nav-link,
@@ -269,7 +269,7 @@
 		border: 2px solid #47a3ff;
 	}
 	div.accordion-item{
-		border: 2px solid #E5AD4C;
+		border: 2px solid #FFD650;
 	}
 }
 

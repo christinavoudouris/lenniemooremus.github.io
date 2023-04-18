@@ -55,6 +55,8 @@ mediaQuery.addListener(displayNone)
 displayNone(mediaQuery)
 
 // footer
+// ADD <i class="fa-brands fa-mastodon"></i>
+// ADD 
 document
 	.querySelector('main')
 	.insertAdjacentHTML(
