@@ -16,26 +16,26 @@ document.querySelector('main').insertAdjacentHTML(
 			<div class="offcanvas-body">
 				<nav>
 					<a class="nav-link" href="index.html">HOME</a>
-					<a class="nav-link" href="news.html">NEWS</a>
-					<a class="nav-link" href="about.html">ABOUT</a>
-					<a class="nav-link" href="credits.html">CREDITS</a>
-					<a class="nav-link" href="blog.html">BLOG</a>
-					<a class="nav-link" href="connect.html">CONNECT</a>
+					<a class="nav-link" href="updates.html">UPDATES</a>
+					<a class="nav-link" href="projects.html">PROJECTS</a>
 					<a class="nav-link" href="mentors.html">MENTORS</a>
-					<!--<a class="nav-link disabled" href="store.html">STORE</a>-->
+					<a class="nav-link" href="about.html">ABOUT</a>
+					<a class="nav-link" href="connect.html">CONNECT</a>
+					<!--<a class="nav-link" href="blog.html">BLOG</a>
+					<a class="nav-link disabled" href="store.html">STORE</a>-->
 				</nav>
-  		</div>
+  			</div>
 		</div>
 		<!-- top nav -->
 		<nav class="nav nav-fill">
 			<a class="nav-link" href="index.html">HOME</a>
-			<a class="nav-link" href="news.html">NEWS</a>
-			<a class="nav-link" href="about.html">ABOUT</a>
-			<a class="nav-link" href="credits.html">CREDITS</a>
-			<a class="nav-link" href="blog.html">BLOG</a>
-			<a class="nav-link" href="connect.html">CONNECT</a>
+			<a class="nav-link" href="updates.html">UPDATES</a>
+			<a class="nav-link" href="projects.html">PROJECTS</a>
 			<a class="nav-link" href="mentors.html">MENTORS</a>
-			<!--<a class="nav-link disabled" href="store.html">STORE</a>-->
+			<a class="nav-link" href="about.html">ABOUT</a>
+			<a class="nav-link" href="connect.html">CONNECT</a>
+			<!--<a class="nav-link" href="blog.html">BLOG</a>
+			<a class="nav-link disabled" href="store.html">STORE</a>-->
 		</nav>
 	</header>`
 )
@@ -55,11 +55,20 @@ mediaQuery.addListener(displayNone)
 displayNone(mediaQuery)
 
 // footer
-// ADD <i class="fa-brands fa-mastodon"></i>
+// ADD <a href="https://www.hivesocial.app/" target="_blank" rel="noopener noreferrer" aria-label="@lenniemoore">,img src="http://www.lenniemoore.com/assets/images/HiveSocial_logo2.png" alt="Hive Social icon"</a>
 // ADD 
 document
 	.querySelector('main')
 	.insertAdjacentHTML(
 		'afterend',
-		`<footer class="container"><p>&copy; 2023 Lennie Moore. All Rights Reserved.<br><a href="https://twitter.com/lenniemooremus" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl"></i></a> <a href="https://www.facebook.com/lenniemooremusic" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a> <a href="https://www.youtube.com/@LennieMoore" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fa-brands fa-youtube fa-xl"></i><br></a> <a href="#top" class="top">Back to Top</a></p></footer>`
+		`<footer class="container">
+			<p>&copy; 2023 Lennie Moore. All Rights Reserved.<br>
+			<a href="https://spoutible.com/lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Spoutible"><img src="http://www.lenniemoore.com/assets/icons/Spoutible_logo1.png" alt="Spoutible icon"></a>
+			<a href="https://www.youtube.com/@LennieMoore" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fa-brands fa-youtube fa-xl"></i></a>
+			<a href="https://www.facebook.com/lenniemooremusic" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a>
+			<a href="https://twitter.com/lenniemooremus" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl"></i></a>
+ 			<a href="https://mastodon.online/@lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i><br></a>
+			<a href="#top" class="top">Back to Top</a>
+			</p>
+		</footer>`
 	)

@@ -226,8 +226,13 @@
 		color: #FFD650;
 	}
 
-	a.header_title {
+	a.header_title,
+	a.nav-link:hover {
 		color: #70BCFF;
+	}
+	
+	a.nav-link:focus {
+		color: #D32F18;
 	}
 	
 	body,	
@@ -235,8 +240,6 @@
 	.nav-fill,
 	.col-10,
 	.accordion-item,
-	a.nav-link:hover,
-	a.nav-link:focus,
 	#lowertext,
 	.fa-bars,
 	.fa-xmark {
@@ -249,9 +252,8 @@
 	}
 
 	a.nav-link:active,
-	a.nav-link:hover,
 	a.nav-link:focus {
-		text-shadow: -4px 4px 0px rgba(0, 0, 0, 2), -5px 5px 7px #eee;
+		text-shadow: -2px 2px 0px #eec, -5px 5px 7px #eec;
 	}
 
 	.nav-fill,
@@ -276,7 +278,7 @@
 /* END DARK & LIGHT MODE STYLES */
 
 body {
-	font-family: DaveGibbonsLowerRegular, DroidSans, Arial, sans-serif;
+	font-family: Roboto, Tahoma, Arial, sans-serif;
 	font-size: 18px;
 }
 
@@ -314,7 +316,7 @@ ul {
 select,
 input,
 textarea {
-	font: 99% DaveGibbonsLowerRegular, DroidSans, Arial, sans-serif;
+	font: 99% Roboto, Tahoma, Arial, sans-serif;
 }
 
 header {
@@ -388,7 +390,8 @@ a.nav-link.disabled {
 }
 
 .accordion-item {
-	font-family: DaveGibbonsLowerItalic, DroidSans, Arial, sans-serif;
+	font-family: Roboto, Tahoma, Arial, sans-serif;
+	font-style: italic;
 	border: 2px solid #900;
 }
 
@@ -471,7 +474,7 @@ h2 {
 
 footer {
 	padding-top: 20px;
-	font-family: DaveGibbonsLowerItalic, DroidSans, Arial, sans-serif;
+	font-family: Roboto, Tahoma, Arial, sans-serif;
 	text-align: center;
 }
 
