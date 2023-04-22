@@ -232,7 +232,7 @@
 	}
 	
 	a.nav-link:focus {
-		color: #FFFFFF;
+		color: #FFFFDD;
 	}
 	
 	body,	
@@ -253,7 +253,7 @@
 
 	a.nav-link:active,
 	a.nav-link:focus {
-		text-shadow: -2px 2px 0px #eec, -5px 5px 7px #eec;
+		text-shadow: -4px 4px 0px rgba(0, 0, 0, 2), -5px 5px 7px rgba(0, 0, 0, 1);
 	}
 
 	.nav-fill,
