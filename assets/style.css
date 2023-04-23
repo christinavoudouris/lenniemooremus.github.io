@@ -114,7 +114,7 @@
 @media (prefers-color-scheme: light) {
 	body {
 		background: url(images/sketch_bg_1920x1024_lite.webp) repeat;
-		background-size: 100%;
+		background-size: contain;
 	}
 
 	body,
@@ -283,6 +283,7 @@ body {
 }
 
 img {
+	height: auto;
 	max-width: 100%;
 }
 
@@ -295,6 +296,10 @@ a[href$='gif'] {
 	border: 0 none;
 }
 
+	iframe {
+		max-width: 100%;
+	}
+	
 .btn,
 .btn:active,
 .btn:focus,
@@ -517,11 +522,6 @@ a.top {
 		font-size: 125%;
 	}
 
-	img {
-  		width: 40%;
-  		height: auto;
-	}
-
 	footer {
 	font-size: 90%;
 }
@@ -545,11 +545,6 @@ a.top {
 
 	h2 {
 		font-size: 120%;
-	}
-
-	img {
-  		width: 42%;
-  		height: auto;
 	}
 
 	footer {
@@ -581,15 +576,6 @@ a.top {
 
 	h2 {
 		font-size: 85%;
-	}
-
-	img {
-  		width: 34%;
-  		height: auto;
-	}
-
-	iframe {
-		width:90%;
 	}
 
 	footer {
