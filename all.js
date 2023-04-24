@@ -56,7 +56,7 @@ displayNone(mediaQuery)
 
 // footer
 // ADD <a href="https://www.hivesocial.app/" target="_blank" rel="noopener noreferrer" aria-label="@lenniemoore">,img src="http://www.lenniemoore.com/assets/images/HiveSocial_logo2.png" alt="Hive Social icon"</a>
-// ADD 
+// ADD FIX icon for Spoutible when available!
 document
 	.querySelector('main')
 	.insertAdjacentHTML(
