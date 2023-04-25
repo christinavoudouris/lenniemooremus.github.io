@@ -298,6 +298,7 @@ a[href$='gif'] {
 
 	iframe {
 		max-width: 100%;
+		max-height: 100%;
 	}
 
 .btn,
@@ -358,11 +359,14 @@ a.nav-link.disabled {
 
 .fa-bars {
 	position: absolute;
-	top: 25px;
+	top: 40px;
 	right: 15px;
 }
 
 .fa-xmark {
+	position: absolute;
+	top: 40px;
+	right: 15px;
 	cursor: pointer;
 }
 
@@ -521,6 +525,10 @@ a.top {
 	h2 {
 		font-size: 125%;
 	}
+	
+	iframe {
+	height: 800px;
+	}
 
 	footer {
 	font-size: 90%;
@@ -545,6 +553,10 @@ a.top {
 
 	h2 {
 		font-size: 120%;
+	}
+
+	iframe {
+	height: 640px;
 	}
 
 	footer {
@@ -576,6 +588,10 @@ a.top {
 
 	h2 {
 		font-size: 85%;
+	}
+
+	iframe {
+	height: 400px;
 	}
 
 	footer {
