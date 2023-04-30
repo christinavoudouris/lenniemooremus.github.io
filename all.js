@@ -55,6 +55,7 @@ mediaQuery.addListener(displayNone)
 displayNone(mediaQuery)
 
 // footer
+// ADD &copy; 2023 Lennie Moore. All Rights Reserved.<br> in front of social icons?
 // ADD <a href="https://www.hivesocial.app/" target="_blank" rel="noopener noreferrer" aria-label="@lenniemoore">,img src="http://www.lenniemoore.com/assets/images/HiveSocial_logo2.png" alt="Hive Social icon"</a>
 // ADD FIX icon for Spoutible when available!
 document
@@ -62,8 +63,7 @@ document
 	.insertAdjacentHTML(
 		'afterend',
 		`<footer class="container">
-			<p>&copy; 2023 Lennie Moore. All Rights Reserved.<br>
-			<a href="https://spoutible.com/lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Spoutible"><img src="http://www.lenniemoore.com/assets/icons/Spoutible_logo1.png" alt="Spoutible icon"></a>
+			<p><a href="https://spoutible.com/lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Spoutible"><img src="http://www.lenniemoore.com/assets/icons/Spoutible_logo1.png" alt="Spoutible icon"></a>
 			<a href="https://www.youtube.com/@LennieMoore" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fa-brands fa-youtube fa-xl"></i></a>
 			<a href="https://music.apple.com/us/artist/lennie-moore/180812297" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-itunes fa-xl"></i></a>
 			<a href="https://open.spotify.com/artist/4jhqmfdj5qiutSpoXgiIMo" target="_blank" rel="noopener noreferrer" aria-label="Spotify"><i class="fa-brands fa-spotify fa-xl"></i></a>
