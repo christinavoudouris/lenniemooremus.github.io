@@ -280,8 +280,8 @@
 body {
 	font-family: Roboto, Tahoma, Arial, sans-serif;
 	font-size: 18px;
+	scroll-behavior: smooth;
 }
-
 img {
 	height: auto;
 	max-width: 100%;
@@ -309,6 +309,27 @@ a[href$='gif'] {
 	color: white;
 }
 
+/* ADD SCROLL TO TOP BUTTON */
+MyBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #06c; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+MyBtn:hover {
+  background-color: #06c; /* Add a dark-grey background on hover */
+}
+/* END ADD SCROLL TO TOP BUTTON */
 ul {
 	list-style-type: none;
 	margin: 0 0 5px 5px;

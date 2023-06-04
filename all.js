@@ -54,10 +54,33 @@ function displayNone(e) {
 mediaQuery.addListener(displayNone)
 displayNone(mediaQuery)
 
+// ADDING SCROLL TO TOP BUTTON
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+// END ADDING SCROLL TO TOP BUTTON
+
 // footer
 // ADD &copy; 2023 Lennie Moore. All Rights Reserved.<br> in front of social icons?
 // ADD <a href="https://www.hivesocial.app/" target="_blank" rel="noopener noreferrer" aria-label="@lenniemoore">,img src="http://www.lenniemoore.com/assets/images/HiveSocial_logo2.png" alt="Hive Social icon"</a>
 // ADD FIX icon for Spoutible when available!
+					
 document
 	.querySelector('main')
 	.insertAdjacentHTML(
@@ -73,7 +96,7 @@ document
 			<a href="https://www.facebook.com/lenniemooremusic" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a>
 			<a href="https://twitter.com/lenniemooremus" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl"></i></a>
  			<a href="https://mastodon.online/@lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i><br></a>
-			<a href="#top" class="top">Back to Top</a>
+			<a id="MyBtn" href="#top">back to top</a>
 			</p>
 		</footer>`
 	)
