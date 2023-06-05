@@ -43,6 +43,18 @@ document.querySelector('main').insertAdjacentHTML(
 const mediaQuery = window.matchMedia('(max-width: 992px)')
 const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
 const menuToggle = document.querySelector('.fa-bars')
+const myButton = document.querySelector('#MyBtn')
+
+// When the user scrolls down 50px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
 // toggle mobile menu
 function displayNone(e) {
