@@ -43,18 +43,6 @@ document.querySelector('main').insertAdjacentHTML(
 const mediaQuery = window.matchMedia('(max-width: 992px)')
 const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
 const menuToggle = document.querySelector('.fa-bars')
-const myButton = document.querySelector('#MyBtn')
-
-// When the user scrolls down 50px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
 
 // toggle mobile menu
 function displayNone(e) {
@@ -70,12 +58,10 @@ displayNone(mediaQuery)
 // ADD &copy; 2023 Lennie Moore. All Rights Reserved.<br> in front of social icons?
 // ADD <a href="https://www.hivesocial.app/" target="_blank" rel="noopener noreferrer" aria-label="@lenniemoore">,img src="http://www.lenniemoore.com/assets/images/HiveSocial_logo2.png" alt="Hive Social icon"</a>
 // ADD FIX icon for Spoutible when available!
-					
-document
-	.querySelector('main')
-	.insertAdjacentHTML(
-		'afterend',
-		`<footer class="container">
+
+document.querySelector('main').insertAdjacentHTML(
+	'afterend',
+	`<footer class="container">
 			<p><a href="https://spoutible.com/lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Spoutible"><img src="http://www.lenniemoore.com/assets/icons/Spoutible_logo2.png" alt="Spoutible icon"></a>
 			<a href="https://www.youtube.com/@LennieMoore" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fa-brands fa-youtube fa-xl"></i></a>
 			<a href="https://music.apple.com/us/artist/lennie-moore/180812297" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-itunes fa-xl"></i></a>
@@ -86,7 +72,28 @@ document
 			<a href="https://www.facebook.com/lenniemooremusic" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a>
 			<a href="https://twitter.com/lenniemooremus" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl"></i></a>
  			<a href="https://mastodon.online/@lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i><br></a>
-			<a href="#top" id="MyBtn" style="position:fixed; bottom:20px; right: 20px; z-index: 99; border: none; outline: none; cursor: pointer; padding: 5px 15px; border-radius: 20px;"><i class="fa-regular fa-circle-up fa-2xl"></i></a>
+			<a href="#top" id="MyBtn"><i class="fa-regular fa-circle-up fa-2xl"></i></a>
 			</p>
 		</footer>`
-	)
+)
+
+/*
+const myButton = document.querySelector('#MyBtn')
+
+// When the user scrolls down 50px from the top of the document, show the button
+function scrollFunction() {
+	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+		myButton.style.position = 'fixed'
+		myButton.style.bottom = '20px'
+		myButton.style.right = '20px'
+		myButton.style.zIndex = '99'
+		myButton.style.cursor = 'pointer'
+		myButton.style.padding = '5px 15px'
+		myButton.style.borderRadius = '20px'
+	} else {
+		myButton.style.display = 'none'
+	}
+}
+
+window.addEventListener('scroll', scrollFunction)
+*/
