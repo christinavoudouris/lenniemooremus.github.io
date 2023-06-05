@@ -74,7 +74,7 @@ document
 			<a href="https://www.facebook.com/lenniemooremusic" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a>
 			<a href="https://twitter.com/lenniemooremus" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl"></i></a>
  			<a href="https://mastodon.online/@lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i><br></a>
-			<a href="#top" style="position:fixed; bottom:20px; right: 20px; z-index: 99; border: none; outline: none; cursor: pointer; padding: 5px 15px; border-radius: 20px;"><i class="fa-regular fa-circle-up fa-2xl"></i></a>
+			<a href="#top" id="MyBtn" style="position:fixed; bottom:20px; right: 20px; z-index: 99; border: none; outline: none; cursor: pointer; padding: 5px 15px; border-radius: 20px;"><i class="fa-regular fa-circle-up fa-2xl"></i></a>
 			</p>
 		</footer>`
 	)
