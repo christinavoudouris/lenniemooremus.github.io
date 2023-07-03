@@ -64,7 +64,7 @@ document.querySelector('main').insertAdjacentHTML(
 	`<footer class="container">
 			<p><a href="https://spoutible.com/lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Spoutible"><img src="http://www.lenniemoore.com/assets/icons/Spoutible_logo2.png" alt="Spoutible icon"></a>
 			<a href="https://www.youtube.com/@LennieMoore" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fa-brands fa-youtube fa-xl"></i></a>
-			<a href="https://music.apple.com/us/artist/lennie-moore/180812297" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-itunes fa-xl"></i></a>
+			<a href="https://music.apple.com/us/artist/lennie-moore/180812297" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-apple fa-xl"></i></a>
 			<a href="https://open.spotify.com/artist/4jhqmfdj5qiutSpoXgiIMo" target="_blank" rel="noopener noreferrer" aria-label="Spotify"><i class="fa-brands fa-spotify fa-xl"></i></a>
 			<a href="https://steamcommunity.com/id/lenniemooremusic/" target="_blank" rel="noopener noreferrer" aria-label="Steam"><i class="fa-brands fa-steam fa-xl"></i></a>
 			<a href="https://pro.imdb.com/name/nm0601500?ref_=hm_prof_header" target="_blank" rel="noopener noreferrer" aria-label="IMDB"><i class="fa-brands fa-imdb fa-xl"></i></a>
