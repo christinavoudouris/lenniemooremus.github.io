@@ -21,8 +21,8 @@ document.querySelector('main').insertAdjacentHTML(
 					<a class="nav-link" href="mentors.html">MENTORS</a>
 					<a class="nav-link" href="about.html">ABOUT</a>
 					<a class="nav-link" href="connect.html">CONNECT</a>
-					<!--<a class="nav-link" href="blog.html">BLOG</a>
-					<a class="nav-link disabled" href="store.html">STORE</a>-->
+					<a class="nav-link" href="store.html">STORE</a>
+					<!--<a class="nav-link" href="blog.html">BLOG</a>-->
 				</nav>
   			</div>
 		</div>
@@ -34,8 +34,8 @@ document.querySelector('main').insertAdjacentHTML(
 			<a class="nav-link" href="mentors.html">MENTORS</a>
 			<a class="nav-link" href="about.html">ABOUT</a>
 			<a class="nav-link" href="connect.html">CONNECT</a>
-			<!--<a class="nav-link" href="blog.html">BLOG</a>
-			<a class="nav-link disabled" href="store.html">STORE</a>-->
+			<a class="nav-link" href="store.html">STORE</a>
+			<!--<a class="nav-link" href="blog.html">BLOG</a>-->
 		</nav>
 	</header>`
 )
