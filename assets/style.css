@@ -463,11 +463,17 @@ h2 {
 .item p {
 	padding: 0;
 	text-indent: 0;
+	overflow: hidden;
 }
 
 .creditpics {
 	width: 140px;
 	height: 200px;
+	border: 1px solid #000;
+	box-shadow: -3px 3px 2px rgba(64, 64, 55, 0.4);
+}
+
+.shadowpics {
 	border: 1px solid #000;
 	box-shadow: -3px 3px 2px rgba(64, 64, 55, 0.4);
 }
