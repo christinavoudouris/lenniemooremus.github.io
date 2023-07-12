@@ -485,6 +485,10 @@ h2 {
 	box-shadow: -3px 3px 2px rgba(64, 64, 55, 0.4);
 }
 
+.add-to-cart {
+	margin-top: 5px;
+}
+
 .image-left {
 	float: left;
 	margin: 0 2% 0 0;
