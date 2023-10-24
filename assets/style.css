@@ -1,110 +1,110 @@
 @font-face {
-	font-family: 'DaveGibbonsRegular';
-	src: url('webfonts/DaveGibbonsRegular.eot');
-	src: url('webfonts/DaveGibbonsRegular.eot?#iefix') format('embedded-opentype'),
-		url('webfonts/DaveGibbonsRegular.woff') format('woff'),
-		url('webfonts/DaveGibbonsRegular.ttf') format('truetype'),
-		url('webfonts/DaveGibbonsRegular.svg#wf') format('svg');
+	font-family: "DaveGibbonsRegular";
+	src: url("webfonts/DaveGibbonsRegular.eot");
+	src: url("webfonts/DaveGibbonsRegular.eot?#iefix") format("embedded-opentype"),
+		url("webfonts/DaveGibbonsRegular.woff") format("woff"),
+		url("webfonts/DaveGibbonsRegular.ttf") format("truetype"),
+		url("webfonts/DaveGibbonsRegular.svg#wf") format("svg");
 	font-display: swap;
 }
 @font-face {
-	font-family: 'DaveGibbonsItalic';
-	src: url('webfonts/DaveGibbonsItalic.eot');
-	src: url('webfonts/DaveGibbonsItalic.eot?#iefix') format('embedded-opentype'),
-		url('webfonts/DaveGibbonsItalic.woff') format('woff'),
-		url('webfonts/DaveGibbonsItalic.ttf') format('truetype'),
-		url('webfonts/DaveGibbonsItalic.svg#wf') format('svg');
+	font-family: "DaveGibbonsItalic";
+	src: url("webfonts/DaveGibbonsItalic.eot");
+	src: url("webfonts/DaveGibbonsItalic.eot?#iefix") format("embedded-opentype"),
+		url("webfonts/DaveGibbonsItalic.woff") format("woff"),
+		url("webfonts/DaveGibbonsItalic.ttf") format("truetype"),
+		url("webfonts/DaveGibbonsItalic.svg#wf") format("svg");
 	font-display: swap;
 }
 @font-face {
-	font-family: 'DaveGibbonsBoldItalic';
-	src: url('webfonts/DaveGibbonsBoldItalic.eot');
-	src: url('webfonts/DaveGibbonsBoldItalic.eot?#iefix')
-			format('embedded-opentype'),
-		url('webfonts/DaveGibbonsBoldItalic.woff') format('woff'),
-		url('webfonts/DaveGibbonsBoldItalic.ttf') format('truetype'),
-		url('webfonts/DaveGibbonsBoldItalic.svg#wf') format('svg');
+	font-family: "DaveGibbonsBoldItalic";
+	src: url("webfonts/DaveGibbonsBoldItalic.eot");
+	src: url("webfonts/DaveGibbonsBoldItalic.eot?#iefix")
+			format("embedded-opentype"),
+		url("webfonts/DaveGibbonsBoldItalic.woff") format("woff"),
+		url("webfonts/DaveGibbonsBoldItalic.ttf") format("truetype"),
+		url("webfonts/DaveGibbonsBoldItalic.svg#wf") format("svg");
 	font-display: swap;
 }
 @font-face {
-	font-family: 'DaveGibbonsLowerRegular';
-	src: url('webfonts/DaveGibbonsLowerRegular.eot');
-	src: url('webfonts/DaveGibbonsLowerRegular.eot?#iefix')
-			format('embedded-opentype'),
-		url('webfonts/DaveGibbonsLowerRegular.woff') format('woff'),
-		url('webfonts/DaveGibbonsLowerRegular.ttf') format('truetype'),
-		url('webfonts/DaveGibbonsLowerRegular.svg#wf') format('svg');
+	font-family: "DaveGibbonsLowerRegular";
+	src: url("webfonts/DaveGibbonsLowerRegular.eot");
+	src: url("webfonts/DaveGibbonsLowerRegular.eot?#iefix")
+			format("embedded-opentype"),
+		url("webfonts/DaveGibbonsLowerRegular.woff") format("woff"),
+		url("webfonts/DaveGibbonsLowerRegular.ttf") format("truetype"),
+		url("webfonts/DaveGibbonsLowerRegular.svg#wf") format("svg");
 	font-display: swap;
 }
 @font-face {
-	font-family: 'DaveGibbonsLowerItalic';
-	src: url('webfonts/DaveGibbonsLowerItalic.eot');
-	src: url('webfonts/DaveGibbonsLowerItalic.eot?#iefix')
-			format('embedded-opentype'),
-		url('webfonts/DaveGibbonsLowerItalic.woff') format('woff'),
-		url('webfonts/DaveGibbonsLowerItalic.ttf') format('truetype'),
-		url('webfonts/DaveGibbonsLowerItalic.svg#wf') format('svg');
+	font-family: "DaveGibbonsLowerItalic";
+	src: url("webfonts/DaveGibbonsLowerItalic.eot");
+	src: url("webfonts/DaveGibbonsLowerItalic.eot?#iefix")
+			format("embedded-opentype"),
+		url("webfonts/DaveGibbonsLowerItalic.woff") format("woff"),
+		url("webfonts/DaveGibbonsLowerItalic.ttf") format("truetype"),
+		url("webfonts/DaveGibbonsLowerItalic.svg#wf") format("svg");
 	font-display: swap;
 }
 @font-face {
-	font-family: 'DaveGibbonsLowerBoldItalic';
-	src: url('webfonts/DaveGibbonsLowerBoldItalic.eot');
-	src: url('webfonts/DaveGibbonsLowerBoldItalic.eot?#iefix')
-			format('embedded-opentype'),
-		url('webfonts/DaveGibbonsLowerBoldItalic.woff') format('woff'),
-		url('webfonts/DaveGibbonsLowerBoldItalic.ttf') format('truetype'),
-		url('webfonts/DaveGibbonsLowerBoldItalic.svg#wf') format('svg');
+	font-family: "DaveGibbonsLowerBoldItalic";
+	src: url("webfonts/DaveGibbonsLowerBoldItalic.eot");
+	src: url("webfonts/DaveGibbonsLowerBoldItalic.eot?#iefix")
+			format("embedded-opentype"),
+		url("webfonts/DaveGibbonsLowerBoldItalic.woff") format("woff"),
+		url("webfonts/DaveGibbonsLowerBoldItalic.ttf") format("truetype"),
+		url("webfonts/DaveGibbonsLowerBoldItalic.svg#wf") format("svg");
 	font-display: swap;
 }
 @font-face {
-	font-family: 'DaveGibbonsJournalRegular';
-	src: url('webfonts/DaveGibbonsJournalRegular.eot');
-	src: url('webfonts/DaveGibbonsJournalRegular.eot?#iefix')
-			format('embedded-opentype'),
-		url('webfonts/DaveGibbonsJournalRegular.woff') format('woff'),
-		url('webfonts/DaveGibbonsJournalRegular.ttf') format('truetype'),
-		url('webfonts/DaveGibbonsJournalRegular.svg#wf') format('svg');
+	font-family: "DaveGibbonsJournalRegular";
+	src: url("webfonts/DaveGibbonsJournalRegular.eot");
+	src: url("webfonts/DaveGibbonsJournalRegular.eot?#iefix")
+			format("embedded-opentype"),
+		url("webfonts/DaveGibbonsJournalRegular.woff") format("woff"),
+		url("webfonts/DaveGibbonsJournalRegular.ttf") format("truetype"),
+		url("webfonts/DaveGibbonsJournalRegular.svg#wf") format("svg");
 	font-display: swap;
 }
 @font-face {
-	font-family: 'DaveGibbonsJournalItalic';
-	src: url('webfonts/DaveGibbonsJournalItalic.eot');
-	src: url('webfonts/DaveGibbonsJournalItalic.eot?#iefix')
-			format('embedded-opentype'),
-		url('webfonts/DaveGibbonsJournalItalic.woff') format('woff'),
-		url('webfonts/DaveGibbonsJournalItalic.ttf') format('truetype'),
-		url('webfonts/DaveGibbonsJournalItalic.svg#wf') format('svg');
+	font-family: "DaveGibbonsJournalItalic";
+	src: url("webfonts/DaveGibbonsJournalItalic.eot");
+	src: url("webfonts/DaveGibbonsJournalItalic.eot?#iefix")
+			format("embedded-opentype"),
+		url("webfonts/DaveGibbonsJournalItalic.woff") format("woff"),
+		url("webfonts/DaveGibbonsJournalItalic.ttf") format("truetype"),
+		url("webfonts/DaveGibbonsJournalItalic.svg#wf") format("svg");
 	font-display: swap;
 }
 @font-face {
-	font-family: 'RockSaltRegular';
-	src: url('webfonts/RockSalt-webfont.eot');
-	src: url('webfonts/RockSalt-webfont.eot?#iefix') format('embedded-opentype'),
-		url('webfonts/RockSalt-webfont.woff') format('woff'),
-		url('webfonts/RockSalt-webfont.ttf') format('truetype'),
-		url('webfonts/RockSalt-webfont.svg#RockSaltRegular') format('svg');
+	font-family: "RockSaltRegular";
+	src: url("webfonts/RockSalt-webfont.eot");
+	src: url("webfonts/RockSalt-webfont.eot?#iefix") format("embedded-opentype"),
+		url("webfonts/RockSalt-webfont.woff") format("woff"),
+		url("webfonts/RockSalt-webfont.ttf") format("truetype"),
+		url("webfonts/RockSalt-webfont.svg#RockSaltRegular") format("svg");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'CrimeFighterBB';
-	src: url('webfonts/CrimeFighterBB.eot');
-	src: url('webfonts/CrimeFighterBB.woff') format('woff'),
-		url('webfonts/CrimeFighterBB.ttf') format('truetype'),
-		url('webfonts/CrimeFighterBB,svg') format('svg');
+	font-family: "CrimeFighterBB";
+	src: url("webfonts/CrimeFighterBB.eot");
+	src: url("webfonts/CrimeFighterBB.woff") format("woff"),
+		url("webfonts/CrimeFighterBB.ttf") format("truetype"),
+		url("webfonts/CrimeFighterBB,svg") format("svg");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'CrimeFighterBBBold';
-	src: url('webfonts/CrimeFighterBBBold.eot');
-	src: url('webfonts/CrimeFighterBBBold.woff') format('woff'),
-		url('webfonts/CrimeFighterBBBold.ttf') format('truetype'),
-		url('webfonts/CrimeFighterBBBold.svg') format('svg');
+	font-family: "CrimeFighterBBBold";
+	src: url("webfonts/CrimeFighterBBBold.eot");
+	src: url("webfonts/CrimeFighterBBBold.woff") format("woff"),
+		url("webfonts/CrimeFighterBBBold.ttf") format("truetype"),
+		url("webfonts/CrimeFighterBBBold.svg") format("svg");
 	font-weight: bold;
 	font-display: swap;
 }
@@ -288,11 +288,11 @@ img {
 	max-width: 100%;
 }
 
-a[href$='jpg'],
-a[href$='jpeg'],
-a[href$='jpe'],
-a[href$='png'],
-a[href$='gif'] {
+a[href$="jpg"],
+a[href$="jpeg"],
+a[href$="jpe"],
+a[href$="png"],
+a[href$="gif"] {
 	text-decoration: none;
 	border: 0 none;
 }
@@ -351,6 +351,8 @@ a.nav-link {
 	font-family: DaveGibbonsBoldItalic, DroidSans, Arial, sans-serif;
 	font-weight: bold;
 	text-decoration: none;
+	padding-left: 18px;
+	padding-right: 18px;
 }
 
 .offcanvas a.nav-link {
