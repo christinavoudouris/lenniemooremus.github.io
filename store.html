@@ -11,33 +11,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="color-scheme" content="light dark" />
 		<link href="favicon.ico" rel="icon" type="image/x-icon" />
-		<!-- BOOTSTRAP CSS -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-			crossorigin="anonymous"
-		/>
-		<!-- CSS overrides -->
+		<!-- BOOTSTRAP & CUSTOM CSS & JS -->
+		<link rel="stylesheet" href="assets/scss/bootstrap.css" />
 		<link rel="stylesheet" href="assets/style.css" />
-		<!-- FONT AWESOME -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-		<!-- BOOTSTRAP JS -->
-		<script
-			defer
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-			crossorigin="anonymous"
-		></script>
-		<!-- our JS -->
-		<script defer src="all.js"></script>
-		<!-- PayPal JS -->
+		<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		<script defer src="assets/all.js"></script>
+		<!-- PREFETCH FONTS -->
+		<link rel="prefetch" as="font" href="assets/webfonts/DaveGibbonsBoldItalic.woff" type="font/woff" crossorigin="anonymous" />
+		<link rel="prefetch" as="font" href="assets/webfonts/DaveGibbonsRegular.woff" type="font/woff" crossorigin="anonymous" />
+		<link rel="prefetch" as="font" href="assets/webfonts/CrimeFighterBB.woff" type="font/woff" crossorigin="anonymous" />
+		<link rel="prefetch" as="font" href="assets/webfonts/fa-regular-400.woff2" type="font/woff2" crossorigin="anonymous" />
+		<link rel="prefetch" as="font" href="assets/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin="anonymous" />
+		<link rel="prefetch" as="font" href="assets/webfonts/fa-brands-400.woff2" type="font/woff2" crossorigin="anonymous" />
 		<script defer src="index.js"></script>
 	</head>
 	<body>
@@ -47,65 +32,92 @@
 					<div class="row mb-3">
 						<h1 id="videogames">VIDEOGAMES</h1>
 						<div class="col" id="outcast2game">
-							<img class="shadowpics" 							src="http://www.lenniemoore.com/assets/images/OutcastANB_Header_40.png" alt="Outcast: A New Beginning box art" width="100%" />
+							<img 
+								class="shadowpics" 
+								srcset="assets/images/OutcastANB_Header_40_600.webp 600w, assets/images/OutcastANB_Header_40.webp 1100w"
+  							sizes="(max-width: 600px) 600px, 1100px"
+								src="assets/images/OutcastANB_Header_40.webp" 
+								alt="Outcast: A New Beginning box art" 
+								width="1100" 
+								height="344" 
+								style="width:100%;" 
+							/>
 							<p class="text-center mt-2"><strong>Buy this game</strong><br>
 								<a href="https://outcast.thqnordic.com/" target="_blank">THQ-Nordic link to all platforms (Windows, Steam, PS5, XBOX Series X/S)</a>&nbsp;
 							</p>
 						</div>
 						<h1 id="albums">ALBUMS</h1>
 						<div class="col" id="outcast2OST">
-							<img class="shadowpics" src="http://www.lenniemoore.com/assets/images/Outcast_A_New_Beginning_OST_640x640.jpg" alt="Outcast: A New Beginning" />
+							<img class="shadowpics" src="assets/images/Outcast_A_New_Beginning_OST_360x360.webp" alt="Outcast: A New Beginning" width="640" height="640" />
 							<p class="text-center mt-2"><strong>Buy this album</strong><br>
-								<a href="https://store.steampowered.com/app/1013140/Outcast__A_New_Beginning/" target="_blank"><i class="fa-brands fa-steam"></i></a>&nbsp;
+								<a href="https://store.steampowered.com/app/1013140/Outcast__A_New_Beginning/" target="_blank" rel="noopener noreferrer" aria-label="Steam"><i class="fa-brands fa-steam"></i></a>&nbsp;
 							</p>
 						</div>
 						<div class="col" id="outcast">
-							<img class="shadowpics" src="http://www.lenniemoore.com/assets/images/LM_Outcast_Album_Cover_640x640.jpg" alt="Outcast OST album cover" />
+							<img 
+								class="shadowpics" 
+								src="assets/images/LM_Outcast_Album_Cover_360x360.webp" 
+								alt="Outcast OST album cover" 
+								width="640" 
+								height="640" 
+							/>
 							<p class="text-center mt-2"><strong>Buy this album</strong><br>
-							<a href="https://store.steampowered.com/app/685850/Outcast__Second_Contact_Original_Soundtrack/" target="_blank"><i class="fa-brands fa-steam"></i></a>&nbsp;
-							<a href="https://music.apple.com/us/album/outcast-original-game-score/763881312" target="_blank"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
+							<a href="https://store.steampowered.com/app/685850/Outcast__Second_Contact_Original_Soundtrack/" target="_blank" rel="noopener noreferrer" aria-label="Steam"><i class="fa-brands fa-steam"></i></a>&nbsp;
+							<a href="https://music.apple.com/us/album/outcast-original-game-score/763881312" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
 							<a href="https://amazon.com/dp/B00GUXKC40" target="_blank" rel="noopener noreferrer" aria-label="Amazon Music"><i class="fa-brands fa-amazon fa-xl"></i></a></p>
 						</div>
 						<div class="col" id="mentors">
-							<img class="shadowpics" src="http://www.lenniemoore.com/assets/images/Mentors_Cover_640x640.jpg" alt="Mentors album front cover" />
+							<img 
+								class="shadowpics" 
+								src="assets/images/Mentors_Cover_360x360.webp" 
+								alt="Mentors album front cover" 
+								width="640" 
+								height="640" 
+							/>
 							<p class="text-center mt-2"><strong>Buy this album (CDs now available on Bandcamp!)</strong><br>
-								<a href="https://lenniemoore.bandcamp.com/album/mentors" target="_blank"><i class="fa-brands fa-bandcamp fa-xl"></i></a>&nbsp;
-								<a href="https://music.apple.com/us/album/mentors-feat-andy-suzuki-nick-manson-peter-erskine/1690258293?app=itunes" target="_blank"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
+								<a href="https://lenniemoore.bandcamp.com/album/mentors" target="_blank" rel="noopener noreferrer" aria-label="Bandcamp"><i class="fa-brands fa-bandcamp fa-xl"></i></a>&nbsp;
+								<a href="https://music.apple.com/us/album/mentors-feat-andy-suzuki-nick-manson-peter-erskine/1690258293?app=itunes" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
 								<a href="https://amazon.com/dp/B0C5FT2GKT" target="_blank" rel="noopener noreferrer" aria-label="Amazon Music"><i class="fa-brands fa-amazon fa-xl"></i></a> 
 							</p>
 						</div>
 					</div>
 					<div class="row mb-3">
 						<div class="col" id="java">
-							<img class="shadowpics" src="http://www.lenniemoore.com/assets/images/LM_CSGO_Album_Cover_640x640.jpg" alt="CSGO Java Havana Funkaloo album cover" />
+							<img 
+								loading="lazy" 
+								class="shadowpics" 
+								src="assets/images/LM_CSGO_Album_Cover_360x360.webp" alt="CSGO Java Havana Funkaloo album cover" 
+								width="640" 
+								height="640" 
+							/>
 							<p class="text-center mt-2"><strong>Buy this album</strong><br>
-							<a href="https://lenniemoore.bandcamp.com/album/cs-go-java-havana-funkaloo" target="_blank"><i class="fa-brands fa-bandcamp fa-xl"></i></a></p>
+							<a href="https://lenniemoore.bandcamp.com/album/cs-go-java-havana-funkaloo" target="_blank" rel="noopener noreferrer" aria-label="Bandcamp"><i class="fa-brands fa-bandcamp fa-xl"></i></a></p>
 						</div>
 						<div class="col" id="haloce">
-							<img class="shadowpics" src="http://www.lenniemoore.com/assets/images/HaloCE_Soundtrack_640x640.jpg" alt="Halo CE Anniversary OST album front cover" />
+							<img loading="lazy" class="shadowpics" src="assets/images/HaloCE_Soundtrack_360x360.webp" alt="Halo CE Anniversary OST album front cover" width="640" height="640" />
 							<p class="text-center mt-2"><strong>Buy this album</strong><br>
-							<a href="https://music.apple.com/us/album/halo-combat-evolved-anniversary-original-soundtrack/1682536194" target="_blank"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
+							<a href="https://music.apple.com/us/album/halo-combat-evolved-anniversary-original-soundtrack/1682536194" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
 							<a href="https://amazon.com/dp/B0C2JCNXWK" target="_blank" rel="noopener noreferrer" aria-label="Amazon Music"><i class="fa-brands fa-amazon fa-xl"></i></a></p>
 						</div>
 						<div class="col" id="halo2">
-							<img class="shadowpics" src="http://www.lenniemoore.com/assets/images/Halo2_Soundtrack_640x640.jpg" alt="Halo 2 Anniversary OST album front cover" />
+							<img loading="lazy" class="shadowpics" src="assets/images/Halo2_Soundtrack_360x360.webp" alt="Halo 2 Anniversary OST album front cover" width="640" height="640" />
 							<p class="text-center mt-2"><strong>Buy this album</strong><br>
-							<a href="https://music.awidthclasspple.com/us/album/halo-2-anniversary-original-soundtrack/1682555196" target="_blank"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
+							<a href="https://music.awidthclasspple.com/us/album/halo-2-anniversary-original-soundtrack/1682555196" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
 							<a href="https://amazon.com/dp/B0C2JCRCLH" target="_blank" rel="noopener noreferrer" aria-label="Amazon Music"><i class="fa-brands fa-amazon fa-xl"></i></a></p>
 						</div>
 					</div>
 					<div class="row mb-3">
 						<div class="col" id="rising1">
-							<img class="shadowpics" src="http://www.lenniemoore.com/assets/images/LM_RisingStorm_Album_Cover_640x640.jpg" alt="RO2 Rising Storm OST album front cover" />
+							<img loading="lazy" class="shadowpics" src="assets/images/LM_RisingStorm_Album_Cover_360x360.webp" alt="RO2 Rising Storm OST album front cover" width="640" height="640" />
 							<p class="text-center mt-2"><strong>Buy this album</strong><br>
-							<a href="https://tripwireinteractive.bandcamp.com/album/rising-storm-original-soundtrack" target="_blank"><i class="fa-brands fa-bandcamp fa-xl"></i></a>&nbsp;
-							<a href="https://music.apple.com/us/album/rising-storm-original-soundtrack/655160759" target="_blank"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
+							<a href="https://tripwireinteractive.bandcamp.com/album/rising-storm-original-soundtrack" target="_blank" rel="noopener noreferrer" aria-label="Bandcamp"><i class="fa-brands fa-bandcamp fa-xl"></i></a>&nbsp;
+							<a href="https://music.apple.com/us/album/rising-storm-original-soundtrack/655160759" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
 							<a href="https://amazon.com/dp/B00D2DNOGY" target="_blank" rel="noopener noreferrer" aria-label="Amazon Music"><i class="fa-brands fa-amazon fa-xl"></i></a></p>
 						</div>
 						<div class="col" id="teddy">
-							<img class="shadowpics" src="http://www.lenniemoore.com/assets/images/Teddy&Philomina_Cover_640x640.jpg" alt="Teddy & Philomina OST album cover" />
+							<img loading="lazy" class="shadowpics" src="assets/images/Teddy&Philomina_Cover_360x360.webp" alt="Teddy & Philomina OST album cover" width="640" height="640" />
 							<p class="text-center mt-2"><strong>Buy this album</strong><br>
-							<a href="https://music.apple.com/us/album/teddy-philomina-original-motion-picture-soundtrack/1346948163" target="_blank"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
+							<a href="https://music.apple.com/us/album/teddy-philomina-original-motion-picture-soundtrack/1346948163" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-apple fa-xl"></i></a>&nbsp;
 							<a href="https://amazon.com/dp/B079PWH2FW" target="_blank" rel="noopener noreferrer" aria-label="Amazon Music"><i class="fa-brands fa-amazon fa-xl"></i></a></p>
 						</div>
 						<div class="col"></div>
@@ -113,7 +125,16 @@
 					<h1 id="charts">SHEET MUSIC</h1>
 					<div class="item" id="mentorscomplete">
 						<h2>Mentors: Complete Bundle</h2>
-						<p><img class="shadowpics" src="http://www.lenniemoore.com/assets/images/LM_Mentors_Complete_Scores_640x640.jpg" alt="Mentors Complete Scores" style="width:48%; height: auto;" /></p>
+						<p>
+							<img 
+								loading="lazy" 
+								class="shadowpics" 
+								src="assets/images/LM_Mentors_Complete_Scores_640x495.webp" 
+								alt="Mentors Complete Scores" 
+								width="640" 
+								height="495" 
+							/>
+						</p>
 						<p><strong>Grade: 5-6+ (Professional/Difficult)</strong><br>
 						<strong>Full Scores and Parts for all eight arrangements from the album in PDF form.</strong><br>
 						Manic, The Mardini Effect, Essence, Smoke &amp; Mirrors, Planetary Misalignment, Two Peas In A Pod, The Kid, Intentionality<br>
@@ -140,7 +161,16 @@
 					</div>
 					<div class="item" id="manic">
 						<h2>Manic: Score and Parts</h2>
-						<p><img class="storepics" src="http://www.lenniemoore.com/assets/images/Mentors_Manic - Concert Score_Page_02.jpg" alt="Manic: Score page 1" /></p>
+						<p>
+							<img 
+								loading="lazy" 
+								class="storepics" 
+								src="assets/images/Mentors_Manic - Concert Score_Page_02.webp" 
+								alt="Manic: Score page 1" 
+								width="640" 
+								height="989" 
+							/>
+						</p>
 						<p><strong>Grade: 6+ (Professional/Very Difficult)</strong><br>
 						<strong>Full Score and Parts, or Score Only in PDF form.</strong><br>
 						<strong>Instrumentation</strong><br>
@@ -157,7 +187,11 @@
 							</tr>
 							<tr>
 							  <td>
-								<select name="os0">
+								<select 
+									name="os0" 
+									class="form-select form-select-sm"
+									aria-label="Select version"
+								>
 								  <option value="Full Score and Parts">
 									Full Score and Parts $50.00 USD
 								  </option>
@@ -174,7 +208,16 @@
 					</div>
 					<div class="item" id="mardini">
 						<h2>The Mardini Effect: Score and Parts</h2>
-						<p><img class="storepics" src="http://www.lenniemoore.com/assets/images/Mentors_The Mardini Effect - Concert Score_Page_02.jpg" alt="The Mardini Effect: Score page 1" /></p>
+						<p>
+							<img 
+								loading="lazy" 
+								class="storepics" 
+								src="assets/images/Mentors_The Mardini Effect - Concert Score_Page_02.webp" 
+								alt="The Mardini Effect: Score page 1" 
+								width="640" 
+								height="989" 
+							/>
+						</p>
 						<p><strong>Grade: 6+ (Professional/Very Difficult)</strong><br>
 						<strong>Full Score and Parts, or Score Only in PDF form.</strong><br>
 							Oud (or Acoustic/Electric Guitar) is a featured soloist.<br>
@@ -192,7 +235,11 @@
 							</tr>
 							<tr>
 							  <td>
-								<select name="os0">
+								<select 
+									name="os0" 
+									class="form-select form-select-sm"
+									aria-label="Select version"
+								>
 								  <option value="Full Score and Parts">
 									Full Score and Parts $50.00 USD
 								  </option>
@@ -209,7 +256,16 @@
 					</div>
 					<div class="item" id="essence">
 						<h2>Essence: Score and Parts</h2>
-						<p><img class="storepics" src="http://www.lenniemoore.com/assets/images/Mentors_Essence - Concert Score_Page_02.jpg" alt="Essence: Score page 1" /></p>
+						<p>
+							<img 
+								loading="lazy" 
+								class="storepics" 
+								src="assets/images/Mentors_Essence - Concert Score_Page_02.webp" 
+								alt="Essence: Score page 1" 
+								width="640" 
+								height="989" 
+							/>
+						</p>
 						<p><strong>Grade: 5-6 (Professional/Difficult)</strong><br>
 						<strong>Full Score and Parts, or Score Only in PDF form.</strong><br>
 							Trombone 2 is a featured soloist.<br>
@@ -228,7 +284,11 @@
 							</tr>
 							<tr>
 							  <td>
-								<select name="os0">
+								<select 
+									name="os0" 
+									class="form-select form-select-sm"
+									aria-label="Select version"
+								>
 								  <option value="Full Score and Parts">
 									Full Score and Parts $50.00 USD
 								  </option>
@@ -245,7 +305,16 @@
 					</div>
 					<div class="item" id="smoke">
 						<h2>Smoke &amp; Mirrors: Score and Parts</h2>
-						<p><img class="storepics" src="http://www.lenniemoore.com/assets/images/Mentors_Smoke&Mirrors - Concert Score_Page_02.jpg" alt="Smoke $amp; Mirrors: Score page 1" /></p>
+						<p>
+							<img 
+								loading="lazy" 
+								class="storepics" 
+								src="assets/images/Mentors_Smoke&Mirrors - Concert Score_Page_02.webp" 
+								alt="Smoke $amp; Mirrors: Score page 1" 
+								width="640" 
+								height="989" 
+							/>
+						</p>
 						<p><strong>Grade: 5-6 (Professional/Difficult)</strong><br>
 							<strong>Full Score and Parts, or Score Only in PDF form.</strong><br>
 							Sax section has woodwind doubles!<br>
@@ -264,7 +333,11 @@
 							</tr>
 							<tr>
 							  <td>
-								<select name="os0">
+								<select 
+									name="os0" 
+									class="form-select form-select-sm"
+									aria-label="Select version"
+								>
 								  <option value="Full Score and Parts">
 									Full Score and Parts $50.00 USD
 								  </option>
@@ -281,7 +354,16 @@
 					</div>
 					<div class="item" id="planetary">
 						<h2>Planetary Misalignment: Score and Parts</h2>
-						<p><img class="storepics" src="http://www.lenniemoore.com/assets/images/Mentors_PlanetaryMisalignment - Concert Score_Page_02.jpg" alt="Planetary Misalignment: Score page 1" /></p>
+						<p>
+							<img 
+								loading="lazy" 
+								class="storepics" 
+								src="assets/images/Mentors_PlanetaryMisalignment - Concert Score_Page_02.webp" 
+								alt="Planetary Misalignment: Score page 1" 
+								width="640" 
+								height="989" 
+							/>
+						</p>
 						<p><strong>Grade: 5-6 (Professional/Difficult)</strong><br>
 						<strong>Full Score and Parts, or Score Only in PDF form.</strong><br>
 							Features Electric Guitar 1 and Alto Sax 1.<br>
@@ -299,7 +381,12 @@
 							</tr>
 							<tr>
 							  <td>
-								<select name="os0">
+								<select 
+									name="os0" 
+									class="form-select 
+									form-select-sm"
+									aria-label="Select version"
+								>
 								  <option value="Full Score and Parts">
 									Full Score and Parts $50.00 USD
 								  </option>
@@ -316,7 +403,16 @@
 					</div>
 					<div class="item" id="twopeas">
 						<h2>Two Peas In A Pod: Score and Parts</h2>
-						<p><img class="storepics" src="http://www.lenniemoore.com/assets/images/Mentors_Two Peas In A Pod - Concert Score_Page_02.jpg" alt="Two Peas In A Pod: Score page 1" /></p>
+						<p>
+							<img 
+								loading="lazy" 
+								class="storepics" 
+								src="assets/images/Mentors_Two Peas In A Pod - Concert Score_Page_02.webp" 
+								alt="Two Peas In A Pod: Score page 1" 
+								width="640" 
+								height="989" 
+							/>
+						</p>
 						<p><strong>Grade: 5-6 (Professional/Difficult)</strong><br>
 						<strong>Full Score and Parts, or Score Only in PDF form.</strong><br>
 							Features Flute and Fender Rhodes Electric Piano.<br>
@@ -338,7 +434,11 @@
 							</tr>
 							<tr>
 							  <td>
-								<select name="os0">
+								<select 
+									name="os0" 
+									class="form-select form-select-sm"
+									aria-label="Select version"
+								>
 								  <option value="Full Score and Parts">
 									Full Score and Parts $50.00 USD
 								  </option>
@@ -355,7 +455,16 @@
 					</div>
 					<div class="item" id="thekid">
 						<h2>The Kid: Score and Parts</h2>
-						<p><img class="storepics" src="http://www.lenniemoore.com/assets/images/Mentors_The Kid - Concert Score_Page_02.jpg" alt="The Kid: Score page 1" /></p>
+						<p>
+							<img 
+								loading="lazy" 
+								class="storepics" 
+								src="assets/images/Mentors_The Kid - Concert Score_Page_02.webp" 
+								alt="The Kid: Score page 1" 
+								width="640" 
+								height="989" 
+							/>
+						</p>
 						<p><strong>Grade: 5-6 (Professional/Difficult)</strong><br>
 						<strong>Full Score and Parts, or Score Only in PDF form.</strong><br>
 							Featured soloist is Fluglehorn (4th Trumpet chair).<br>
@@ -377,7 +486,11 @@
 							</tr>
 							<tr>
 							  <td>
-								<select name="os0">
+								<select 
+									name="os0" 
+									class="form-select form-select-sm"
+									aria-label="Select version"
+								>
 								  <option value="Full Score and Parts">
 									Full Score and Parts $50.00 USD
 								  </option>
@@ -394,7 +507,16 @@
 					</div>
 					<div class="item" id="intentionality">
 						<h2>Intentionality: Score and Parts</h2>
-						<p><img class="storepics" src="http://www.lenniemoore.com/assets/images/Mentors_Intentionality - Concert Score_Page_02.jpg" alt="Intentionality: Score page 1" /></p>
+						<p>
+							<img 
+								loading="lazy" 
+								class="storepics" 
+								src="assets/images/Mentors_Intentionality - Concert Score_Page_02.webp" 
+								alt="Intentionality: Score page 1" 
+								width="640" 
+								height="989" 
+							/>
+						</p>
 						<p><strong>Grade: 5-6 (Professional/Difficult)</strong><br>
 						<strong>Full Score and Parts, or Score Only in PDF form.</strong><br>
 							Piano is a featured soloist.<br>
@@ -412,7 +534,11 @@
 							</tr>
 							<tr>
 							  <td>
-								<select name="os0">
+								<select 
+									name="os0" 
+									class="form-select form-select-sm"
+									aria-label="Select version"
+								>
 								  <option value="Full Score and Parts">
 									Full Score and Parts $50.00 USD
 								  </option>
@@ -537,16 +663,6 @@
 				.render("#paypal-button-container");
 				})
 
-			</script>
-
-		<!-- Google tag (gtag.js) -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=G-2E6KQ2CJGH"></script>
-			<script>
-				window.dataLayer = window.dataLayer || [];
-  				function gtag(){dataLayer.push(arguments);}
-  				gtag('js', new Date());
-
-  				gtag('config', 'G-2E6KQ2CJGH');
 			</script>
 	</body>
 </html>

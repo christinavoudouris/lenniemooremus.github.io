@@ -7,35 +7,23 @@
 			name="description"
 			content="The official page for Lennie Moore's big band album, Mentors."
 		/>
-		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="color-scheme" content="light dark" />
 		<link href="favicon.ico" rel="icon" type="image/x-icon" />
-		<!-- BOOTSTRAP CSS -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-			crossorigin="anonymous"
-		/>
-		<!-- CSS overrides -->
+		<!-- PREFETCH REELCRAFTER -->
+		<link rel="prefetch" href="https://play.reelcrafter.com/embed/18777b5a-4ad3-4b5d-9fc8-b3f493896c3f">
+		<!-- BOOTSTRAP & CUSTOM CSS & JS -->
+		<link rel="stylesheet" href="assets/scss/bootstrap.css" />
 		<link rel="stylesheet" href="assets/style.css" />
-		<!-- FONT AWESOME -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-		<!-- BOOTSTRAP JS -->
-		<script
-			defer
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-			crossorigin="anonymous"
-		></script>
-		<!-- our JS -->
-		<script defer src="all.js"></script>
+		<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		<script defer src="assets/all.js"></script>
+		<!-- PREFETCH FONTS -->
+		<link rel="prefetch" as="font" href="assets/webfonts/DaveGibbonsBoldItalic.woff" type="font/woff" crossorigin="anonymous" />
+		<link rel="prefetch" as="font" href="assets/webfonts/DaveGibbonsRegular.woff" type="font/woff" crossorigin="anonymous" />
+		<link rel="prefetch" as="font" href="assets/webfonts/CrimeFighterBB.woff" type="font/woff" crossorigin="anonymous" />
+		<link rel="prefetch" as="font" href="assets/webfonts/fa-regular-400.woff2" type="font/woff2" crossorigin="anonymous" />
+		<link rel="prefetch" as="font" href="assets/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin="anonymous" />
+		<link rel="prefetch" as="font" href="assets/webfonts/fa-brands-400.woff2" type="font/woff2" crossorigin="anonymous" />
 	</head>
 	<body>
 		<main class="container">
@@ -43,24 +31,37 @@
 				<div class="col-10 mentors">
 					<p><h1>Mentors</h1>
 						<img
-						class="image-left"
-						src="http://www.lenniemoore.com/assets/images/Mentors_W166_Artwork_p1_640x564.jpg"
-						alt="Mentors album front cover"
-						width="48%" />
+							class="image-left"
+							srcset="assets/images/Mentors_W166_Artwork_p1_300x264.webp 300w, assets/images/Mentors_W166_Artwork_p1_550x485.webp Mentors_W166_Artwork_p1_550x485 550w"
+  						sizes="(max-width: 600px) 300px, 550px"
+							src="assets/images/Mentors_W166_Artwork_p1_550x485.webp"
+							alt="Mentors album front cover"
+							width="550"
+							height="485"
+							style="width: 48%;"
+						/>
 						<img
-						class="image-left"
-						src="http://www.lenniemoore.com/assets/images/Mentors_W166_Artwork_p6_640x564.jpg"
-						alt="Mentors album back cover"
-						width="48%" />
+							class="image-left"
+							srcset="assets/images/Mentors_W166_Artwork_p6_300x264.webp 300w, assets/images/Mentors_W166_Artwork_p6_550x485.webp Mentors_W166_Artwork_p1_550x485 550w"
+  						sizes="(max-width: 600px) 300px, 550px"
+							src="assets/images/Mentors_W166_Artwork_p6_550x485.webp"
+							alt="Mentors album back cover"
+							width="550"
+							height="485" 
+							style="width: 48%;"
+						/>
 					</p>
 					<p>&nbsp;</p>
 					<p>This album is available digitally for 
 					<a href="https://songwhip.com/lennie-moore/mentors" title="Mentors listen/buy link" target="_blank">listening or purchase at all of your favorite spaces.</a></p>
 				<!-- ReelCrafter reel: Mentors -->
 					<p><iframe
-						width="98%"
+						style="width: 98%;"
+						width="1078"
 						height="620"
+						title="Mentors"
 						scrolling="no"
+						loading="lazy"
 						frameborder="no"
 						src="https://play.reelcrafter.com/embed/18777b5a-4ad3-4b5d-9fc8-b3f493896c3f">
 					</iframe></p>
@@ -419,7 +420,7 @@
 						>
 							<div class="accordion-body">
 
-								<h5>Mentor Statements:</h5>
+								<h3 style="font-size: 1.25rem;">Mentor Statements:</h3>
 								<p><a href="#manic"><strong>MANIC</strong><br>
 									Peter Erskine</a></p>
 								<p><a href="#mardini"><strong>THE MARDINI EFFECT</strong><br>
@@ -437,7 +438,7 @@
 									Ken Kraintz</a></p>
 								<p><a href="#intentionality"><strong>INTENTIONALITY</strong><br>
 									Lennie Moore</a></p>
-								<h5>Band Member Statements:</h5>
+								<h3 style="font-size: 1.25rem;">Band Member Statements:</h3>
 								<p><a href="#bm">Billy Martin<br></a></p>
 								<p><a href="#pm">Phil Moore<br></a></p>
 								<!--<p><a href="#wb">Wayne Bergeron<br></a></p>-->
@@ -458,14 +459,5 @@
 				</div>
 			</div>
 		</main>
-		<!-- Google tag (gtag.js) -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=G-2E6KQ2CJGH"></script>
-			<script>
-				window.dataLayer = window.dataLayer || [];
-  				function gtag(){dataLayer.push(arguments);}
-  				gtag('js', new Date());
-
-  				gtag('config', 'G-2E6KQ2CJGH');
-			</script>
 	</body>
 </html>
