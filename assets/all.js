@@ -59,7 +59,7 @@ document.querySelector("main").insertAdjacentHTML(
   "afterend",
   `<footer class="container">
 			<p>
-			<a href="https://spoutible.com/lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Spoutible"><img src="assets/icons/Spoutible_logo2.webp" alt="Spoutible icon" width="48" height="48"></a>
+			<a href="https://spoutible.com/lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Spoutible"><img src="assets/icons/Spoutible_icon.webp" alt="Spoutible icon" width="48" height="48"></a>
 			<a href="https://www.youtube.com/@LennieMoore" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fa-brands fa-youtube fa-xl"></i></a>
 			<a href="https://music.apple.com/us/artist/lennie-moore/180812297" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-apple fa-xl"></i></a>
 			<a href="https://open.spotify.com/artist/4jhqmfdj5qiutSpoXgiIMo" target="_blank" rel="noopener noreferrer" aria-label="Spotify"><i class="fa-brands fa-spotify fa-xl"></i></a>
