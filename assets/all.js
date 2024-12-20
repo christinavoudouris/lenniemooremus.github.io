@@ -67,7 +67,7 @@ document.querySelector("main").insertAdjacentHTML(
 			<a href="https://pro.imdb.com/name/nm0601500?ref_=hm_prof_header" target="_blank" rel="noopener noreferrer" aria-label="IMDB"><i class="fa-brands fa-imdb fa-xl"></i></a>
 			<a href="https://www.linkedin.com/in/lenniemoore/" target="_blank" rel="noopener noreferrer" aria-label="linkedin"><i class="fa-brands fa-linkedin fa-xl"></i></a>
 			<a href="https://www.facebook.com/lenniemooremusic" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a>
-			<a href="https://twitter.com/lenniemooremus" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter fa-xl"></i></a>
+			<a href="https://bsky.app/profile/lenniemooremusic.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky"><i class="fa-brands fa-bluesky fa-xl"></i></a>
  			<a href="https://mastodon.online/@lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a> 
 			<!--<a href="https://www.hivesocial.app/" target="_blank" rel="noopener noreferrer" aria-label="@lenniemoore"><img src="assets/icons/HiveSocial_logo2.png" alt="Hive Social icon" /></a>-->
 			<br>&copy; 2024 Lennie Moore. All Rights Reserved.
