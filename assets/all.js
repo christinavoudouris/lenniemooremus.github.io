@@ -68,7 +68,7 @@ document.querySelector("main").insertAdjacentHTML(
 			<a href="https://www.linkedin.com/in/lenniemoore/" target="_blank" rel="noopener noreferrer" aria-label="linkedin"><i class="fa-brands fa-linkedin fa-xl"></i></a>
 			<a href="https://www.facebook.com/lenniemooremusic" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a>
 			<a href="https://bsky.app/profile/lenniemooremusic.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky"><i class="fa-brands fa-bluesky fa-xl"></i></a>
- 			<a href="https://mastodon.online/@lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+ 			<a href="https://mastodon.online/@lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Mastodon"><i class="fa-brands fa-mastodon fa-xl"></i></a>
 			<br>&copy; 2024 Lennie Moore. All Rights Reserved.
 			</p>
 			<a href="#top" id="MyBtn" aria-label="Back to top"><i class="fa-regular fa-circle-up fa-2xl"></i></a>
