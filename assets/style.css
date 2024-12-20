@@ -294,6 +294,9 @@ img {
   font-weight: 900;
 }
 
+.fa-bluesky:before{
+content:"\e671"
+}
 .fa-youtube:before {
   content: "\f167";
 }
