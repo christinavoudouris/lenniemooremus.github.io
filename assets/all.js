@@ -62,9 +62,12 @@ document.querySelector("main").insertAdjacentHTML(
 			<a href="https://spoutible.com/lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Spoutible"><img src="assets/icons/Spoutible_icon.webp" alt="Spoutible icon" width="32" height="32"></a>
 			<a href="https://bsky.app/profile/lenniemooremusic.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Bluesky"><i class="fa-brands fa-bluesky fa-xl"></i></a>
  			<a href="https://www.facebook.com/lenniemooremusic" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a>
+			<a href="https://www.instagram.com/lenniemooremusic/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram fa-xl"></i></a>
+			<a href="https://www.threads.net/@lenniemooremusic" target="_blank" rel="noopener noreferrer" aria-label="Threads"><i class="fa-brands fa-threads fa-xl"></i></a>
 			<a href="https://mastodon.online/@lenniemoore" target="_blank" rel="noopener noreferrer" aria-label="Mastodon"><i class="fa-brands fa-mastodon fa-xl"></i></a>
 			<a href="https://music.apple.com/us/artist/lennie-moore/180812297" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><i class="fa-brands fa-apple fa-xl"></i></a>
 			<a href="https://open.spotify.com/artist/4jhqmfdj5qiutSpoXgiIMo" target="_blank" rel="noopener noreferrer" aria-label="Spotify"><i class="fa-brands fa-spotify fa-xl"></i></a>
+			<a href="https://lenniemoore.bandcamp.com/" target="_blank" rel="noopener noreferrer" aria-label="Bandcamp"><i class="fa-brands fa-bandcamp fa-xl"></i></a>
 			<a href="https://www.youtube.com/@LennieMoore" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="fa-brands fa-youtube fa-xl"></i></a>
 			<a href="https://pro.imdb.com/name/nm0601500?ref_=hm_prof_header" target="_blank" rel="noopener noreferrer" aria-label="IMDB"><i class="fa-brands fa-imdb fa-xl"></i></a>
 			<a href="https://www.linkedin.com/in/lenniemoore/" target="_blank" rel="noopener noreferrer" aria-label="linkedin"><i class="fa-brands fa-linkedin fa-xl"></i></a>

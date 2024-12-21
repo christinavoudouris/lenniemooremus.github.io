@@ -318,6 +318,12 @@ content:"\e671";
 .fa-facebook:before {
   content: "\f09a";
 }
+.fa-instagram:before {
+  content: "\e055";
+}
+.fa-threads:before {
+  content:"\e618"
+}
 .fa-twitter:before {
   content: "\f099";
 }
